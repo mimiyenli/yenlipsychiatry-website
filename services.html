@@ -4,18 +4,73 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Services — Yen Li Psychiatry</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@500;600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
-<body>
-    <nav class="tabs">
-        <a class="tab" href="index.html">Home</a>
-        <a class="tab" href="bio.html">Bio</a>
-        <a class="tab active" href="services.html">Services</a>
-        <a class="tab" href="faq.html">FAQ</a>
+<body class="subpage services">
+    <nav class="topnav">
+        <a class="brand" href="index.html">Yen Li Psychiatry</a>
+        <div class="links">
+            <a href="index.html">Home</a>
+            <a href="bio.html">Bio</a>
+            <a href="services.html" class="active">Services</a>
+            <a href="faq.html">FAQ</a>
+            <a href="contact.html" class="cta">Reach out</a>
+        </div>
     </nav>
 
-    <main>
-        <h1>Services</h1>
+    <main class="page-body">
+        <header class="page-header">
+            <div class="eyebrow">Services</div>
+            <h1>Care plans that fit <em>real lives</em>.</h1>
+            <p class="summary">Three ways to work together. All telehealth, all California, all 50-minute appointments.</p>
+        </header>
+
+        <section class="page-content">
+            <div class="cards">
+                <a class="card sage" href="contact.html">
+                    <div class="icon">→</div>
+                    <h3>Initial consult</h3>
+                    <p>A 60-minute session to understand the full picture and decide together if we're a fit.</p>
+                    <ul>
+                        <li>60 min <span class="price">$[price]</span></li>
+                        <li>Includes follow-up notes</li>
+                    </ul>
+                </a>
+                <a class="card clay" href="contact.html">
+                    <div class="icon">↻</div>
+                    <h3>Ongoing care</h3>
+                    <p>Med management plus the kind of conversation that real psychiatry actually requires.</p>
+                    <ul>
+                        <li>50 min <span class="price">$[price]</span></li>
+                        <li>Monthly or as-needed</li>
+                    </ul>
+                </a>
+                <a class="card moss" href="contact.html">
+                    <div class="icon">✦</div>
+                    <h3>Second opinions</h3>
+                    <p>One or two sessions to review a current treatment plan with fresh eyes.</p>
+                    <ul>
+                        <li>60 min <span class="price">$[price]</span></li>
+                        <li>Written summary included</li>
+                    </ul>
+                </a>
+            </div>
+
+            <div class="conditions">
+                <h3>Things I commonly help with</h3>
+                <div class="tags">
+                    <span class="tag accent">Anxiety</span>
+                    <span class="tag">Depression</span>
+                    <span class="tag">ADHD</span>
+                    <span class="tag">Burnout</span>
+                    <span class="tag">Postpartum</span>
+                    <span class="tag">Life transitions</span>
+                    <span class="tag">Insomnia</span>
+                    <span class="tag">Grief</span>
+                </div>
+            </div>
+        </section>
     </main>
 
     <script src="script.js"></script>
